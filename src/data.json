@@ -1,0 +1,20 @@
+ [
+     {
+      "title": "Competitive Grant",
+      "description": "Also known as “discretionary” funding, this type of grant is awarded based on a competitive process, which includes proposal selection based on a single reviewer or a team of reviewers. Financing of this type is determined by the merits of the application and is not predetermined."
+    },
+    
+    {
+      "title": "Formula Grant",
+      "description": "Unlike a competitive grant, formula grants are awarded to recipients who are predetermined, and the term “formula” refers to the way the grant funding is allocated to recipients. Formula grants, in contrast, are non-competitive. "
+    },
+    
+    {
+      "title": "Renewal Grant",
+      "description": "Unlike a competitive grant, formula grants are awarded to recipients who are predetermined, and the term “formula” refers to the way the grant funding is allocated to recipients. Formula grants, in contrast, are non-competitive. "
+    },
+    {
+      "title": "Pass-Through Grant",
+      "description": "Federal agencies issue pass-through grants to a State agency or institution. From there, they transfer the funds to other State agencies, units of local government, or other eligible groups per the award eligibility terms."
+    }
+]

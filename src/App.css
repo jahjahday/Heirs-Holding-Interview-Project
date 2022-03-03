@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.contain {
+  border: none solid black;
+  box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  height: 8em;
+}
+
+h1 {
+  cursor: pointer;
+}
+
+.butt {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em 7em 0 7em;
+}
+
+button {
+  border-color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btnSuccess {
+  color: white;
+  background: green;
+}
+
+.btnSuccess:hover {
+  background: darkgreen;
+}
+
+.btnDanger {
+  color: white;
+  background: red;
+}
+
+.btnDanger:hover {
+  background: darkred;
+}
+
+input {
+  width: 50%;
+  border: 1px solid rgb(0, 0, 0) 0 5px 15px;
+  border-radius: 5px;
+  margin: auto;
+  height: 3em;
+}
+
+textarea {
+  margin-top: 1em;
+}
+
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.50);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 2.5em;
+}
+
+.modalContainer {
+  width: 500px;
+  height: 20em;
+  border-radius: 5px;
+  background-color: green;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+  color: white;
+}
+
+
