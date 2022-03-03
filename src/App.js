@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import data from "./data.json";
-import Language from "./Language";
 
 const truncate = (str, length, ending) => {
   if (length == null) {
@@ -41,13 +40,14 @@ const App = () => {
   };
 
   const pop = () => {
-    alert(popUp);
+    window.confirm(popUp);
   };
 
   return (
     <div className="App">
       <form>
         <input type="search" onChange={search} placeholder="search" />
+        <h4>{filter}</h4>
       </form>
       {grants.map((grant, index) => (
         <div>
